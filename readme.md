@@ -210,6 +210,5 @@ main {
 ```
 
 ## Author
-
-- Website - [Olamiji Michael](https://github.com/OMS-Create)
+- Website Upcoming 
 - Frontend Mentor - [@OMS-Create](https://www.frontendmentor.io/profile/OMS-Create)
