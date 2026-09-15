@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View Solution](https://github.com/OMS-Create/social-links-profile)
-- Live Site URL: [View Live Site](https://oms-create.github.io/social-links-profile/)
+- Solution URL: [View Solution](https://oms-social-card.netlify.app)
+- Live Site URL: [View Live Site](https://github.com/OMS-Create/oms-social-card)
 
 ## My process
 
