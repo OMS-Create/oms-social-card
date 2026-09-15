@@ -1,0 +1,98 @@
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	
+	body {
+		font-family: 'Inter', sans-serif;
+		display: grid;
+		place-items: center;
+		min-height: 100vh;
+		background: hsl(0, 0%, 8%);
+		color: hsl(0, 0%, 100%);
+	}
+	
+	main {
+		background: hsl(0, 0%, 12%);
+		color: white;
+		padding: 40px;
+		border-radius: 12px;
+		width: 100%;
+		max-width: 384px;
+		text-align: center;
+	}
+	
+	.profile-img {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 24px;
+	}
+
+	.img {
+		border-radius: 50%;
+		height: 88px;
+		width: 88px;
+		object-fit: cover;
+	}
+
+	.profile h1 {
+		font-size: 24px;
+		font-weight: 600;
+		margin-bottom: 8px;
+	}
+	
+	.national-origin {
+		color: hsl(75, 94%, 57%);
+		font-size: 14px;
+		font-weight: 600;
+		margin-bottom: 24px;
+	}
+	
+	.Presently {
+		color: hsl(0, 0%, 100%);
+		font-size: 14px;
+		font-weight: 400;
+	}
+	
+	.Presently p {
+		margin-bottom: 24px;
+	}
+
+	.social-links {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		width: 100%;
+	}
+	
+	.social-links a {
+		background-color: hsl(0, 0%, 20%);
+		color: white;
+		height: 45px;
+		border-radius: 8px;
+		border: none;
+		width: 100%;
+		text-decoration: none;
+		display: grid;
+		place-items: center;
+		font-size: 14px;
+		font-weight: 600;
+		transition: background-color 0.2s ease, color 0.2s ease;
+	}
+
+	.social-links a:hover {
+		background-color: hsl(75, 94%, 57%);
+		color: hsl(0, 0%, 8%);
+	}
+
+	.attribution {
+		font-size: 0.687rem;
+		text-align: center;
+		margin-top: 24px;
+	}
+
+	.attribution a {
+		color: hsl(228, 45%, 44%);
+		text-decoration: none;
+	}
